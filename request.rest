@@ -1,0 +1,14 @@
+GET http://localhost:2001 HTTP/1.1
+
+###
+POST http://localhost:2001/register HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:2001/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"Ask@123",
+    "password":"1234568"
+}
